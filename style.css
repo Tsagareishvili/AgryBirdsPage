@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(90, 203, 255);
+    height: 70px;
+    box-shadow: 0px 0px 20px 0px;
+
+    
+}
+.logo{
+    width: 50px; 
+    margin: 15px;
+
+}
+#search{
+    border: none;
+    border-radius: 20px;
+    margin: 15px;
+}
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 15px;
+
+
+}
+
+.signIn{
+    padding: 15px 20px;
+    background-color: coral;
+    border-radius: 20px;
+    
+    
+}
+
+.menu a:hover{
+    opacity: 70%;
+    transition: 1s;
+}
+
+.signIn:hover{
+    opacity: 90%!important;
+    padding: 20px 25px ;
+    color: aqua;
+    transition: 0.5s;
+}
