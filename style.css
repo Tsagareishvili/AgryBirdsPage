@@ -124,6 +124,28 @@ h1 {
     color: red;
 }
 
+.thirdSection {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
 
+.angryBIRD {
+    width: 800px;
+}
 
+.angry {
+    width: 800px;
+}
+
+.angry h3 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.angry p  {
+    font-size: 18px;
+    line-height: 24px;
+}
 
