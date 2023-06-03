@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Faster+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
 
 
 
@@ -39,6 +39,7 @@ header{
     border-radius: 20px;
     text-decoration: none;
     color: white;
+
     
     
     
@@ -52,7 +53,7 @@ header{
 .signIn:hover{
     opacity: 90%!important;
     padding: 20px 25px ;
-    color: black;
+    color: rgb(143, 143, 143);
     transition: 0.5s;
 }
 
@@ -165,33 +166,33 @@ font-weight: 900;
     margin-bottom: 50px;
 }
 
-
-.frame {
-    width: 200px;
-}
-
-h4 {
-    font-family: 'Bungee Outline', cursive; 
-    font-size: 50px;
-    text-shadow: 100px;
+.section4 {
     display: flex;
-    justify-content:flex-start
-}
-
-.donation {
-    padding: 15px 20px;
-    background-color: rgb(3, 143, 34);
-    border-radius: 20px;
-    text-decoration: none;
-    color: white;
+    justify-content: space-around;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    background-color: lightgrey;
+    padding: 25px
 }
 
-.donation:hover {
-   opacity: 90%!important;
-    padding: 20px 25px ;
-    color: rgb(36, 88, 49);
-    transition: 0.5s;
+
+.free {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.toy {
+    font-family: 'Russo One', sans-serif;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+
+.free {
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
 }
 
